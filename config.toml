@@ -1,0 +1,4 @@
+[agent]
+model_name='gpt-4'
+temperature=0.2
+sqlite_connection='database/checkpoint.db'
