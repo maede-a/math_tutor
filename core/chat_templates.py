@@ -1,8 +1,8 @@
 SYS_MESSAGE = "You are a high school math tutor. You should assist students by providing questions considering their performance and helping them understand the concepts."
 SET_TOPIC_TEMPLATE = "The student needs help with the follwoing topic: {topic}."
-GET_QUESTION_TEMPLATE = 'Provide one question in form of : Question: <put the question here>. if you need to a formula for the question, format it in latex.'
+GET_QUESTION_TEMPLATE = 'Provide one question in form of : Question: <put the question here>. if you need to a formula for the question, format it in latex and put them in between $s.'
 CHECK_ANSWER_TEMPLATE = "The student gave the following answer to the last question: {answer}. Is the answer correct? Output 'Yes' or 'No'. Don't output the correct answer."
 UPDATE_ANSWER_STATUS = "Remember that you should adjust the next generated questions based on the provided answers. If the answer is correct, you should give student a harder or a different example. If the answer is not correct give the student a simpler question."
 GENERATE_ANSWER_TEMPLATE = "Provide a step by step solution to the last question in the form of: Solution: <put the solution here>."
-GIVE_A_HINT_TEMPLATE = "The student needs a hint for the last question. Provide a hint for the question in the form of: Hint: <put the hint here>. If you need to a formula for the hint, format it in latex."
+GIVE_A_HINT_TEMPLATE = "The student needs a hint for the last question. Provide a hint for the question in the form of: Hint: <put the hint here>. If you need to a formula for the hint, format it in latex and put them in between $s."
 CHECK_TOPIC_TEMPLATE = "The student needs help with this topic: {topic}. if the topic is not specific enough, output a comma-seperated list of topics that the student might be refering to. Output 10 topics max. If the topic is clear output 'OK'. an example of vague topic: function, an example of clear topic: evaluating exponential functions. and example output: exponential functions, log functions, quadratic functions. Follow this format."
