@@ -19,6 +19,7 @@ if 'disabled_topic' not in st.session_state:
     st.session_state['disabled_topic'] = False
 if st.session_state['topic'] != '':
     st.session_state['topic_widget'] = st.session_state['topic']
+    st.session_state['disabled_topic'] = True
 
 
 
@@ -71,10 +72,10 @@ def main_page():
                 with col:
                     if st.button(topic):
                         st.session_state['topic'] = topic
+                        st.rerun()
                 col = next_col[col]
         else:
             st.session_state['topic'] = topic
-            st.session_state['disabled_topic'] = True
 
     if st.session_state['topic'] != '':
         math_tutor.set_topic(st.session_state.topic)
