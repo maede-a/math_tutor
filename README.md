@@ -1,0 +1,2 @@
+This project showcases the potential of Generative AI in math education. 
+The app provides students with questions from their chosen topics, checks their answers, offers step-by-step solutions, and provides hints upon request.
