@@ -1,0 +1,15 @@
+name: mathtutor
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - conda-forge::langchain
+  - conda-forge::langchain-community
+  - conda-forge::openai
+  - conda-forge::langchain-experimental
+  - conda-forge::langgraph
+  - conda-forge::langchain-openai
+  - sympy
+  - streamlit=1.36
+  - python-dotenv
+prefix: /opt/miniconda3/envs/mathtutor
