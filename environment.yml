@@ -3,13 +3,13 @@ channels:
   - defaults
 dependencies:
   - python=3.11
-  - conda-forge::langchain
-  - conda-forge::langchain-community
-  - conda-forge::openai
-  - conda-forge::langchain-experimental
-  - conda-forge::langgraph
-  - conda-forge::langchain-openai
-  - sympy
+  - conda-forge::langchain=0.2.10
+  - conda-forge::langchain-community=0.2.9
+  - conda-forge::openai=1.37.0
+  - conda-forge::langchain-experimental=0.0.62
+  - conda-forge::langgraph=0.1.9
+  - conda-forge::langchain-openai=0.1.17
+  - sympy=1.12
   - streamlit=1.36
-  - python-dotenv
+  - python-dotenv=0.21.0
 prefix: /opt/miniconda3/envs/mathtutor
